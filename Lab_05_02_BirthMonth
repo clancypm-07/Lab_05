@@ -4,7 +4,7 @@ public class Lab_05_02_BirthMonth {
         int birthMonth = 0;
 
         // User prompt
-        System.out.println("Enter your birth month (1–12)");
+        System.out.println("Enter your birth month (1–12): " + birthMonth);
         birthMonth = 15;
 
         if (birthMonth >= 1 && birthMonth <= 12)
