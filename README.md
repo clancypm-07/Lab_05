@@ -1,1 +1,22 @@
-# Lab_05
+public class Lab_05_01_ShipCostCalculator {
+    public static void main(String[] args) {
+        // Declarations
+        int itemPrice = 85;
+        double totalPrice = 0;
+        double shippingCost = 0;
+        double shippingFeeRate = 0.02;
+
+        // Calculations
+        if (itemPrice <100){
+            shippingCost = itemPrice * shippingFeeRate;
+        }
+        else if (itemPrice >= 100){
+            shippingCost = 0;
+        }
+        totalPrice = itemPrice + shippingCost;
+
+        // Output
+        System.out.println("The cost to ship your item is, $" + shippingCost +", and the total cost is, $" + totalPrice + ".");
+
+    }
+}
