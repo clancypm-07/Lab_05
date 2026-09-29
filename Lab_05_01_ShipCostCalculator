@@ -6,6 +6,9 @@ public class Lab_05_01_ShipCostCalculator {
         double shippingCost = 0;
         double shippingFeeRate = 0.02;
 
+        // User prompt
+        System.out.println("Enter the price of the item you wish to purchase: " + itemPrice);
+
         // Calculations
         if (itemPrice <100){
             shippingCost = itemPrice * shippingFeeRate;
