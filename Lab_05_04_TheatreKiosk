@@ -1,1 +1,16 @@
+public class Lab_05_04_TheatreKiosk {
+    public static void main(String[] args) {
+        // Declarations
+        int age = 21;
 
+        //User prompt
+        System.out.println("Enter your age: " + age);
+
+        // Logic
+        if (age >= 21)
+        {
+            System.out.println("Collect your wristband at the desk.");
+        }
+
+    }
+}
